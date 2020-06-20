@@ -35,6 +35,7 @@ var addTwoNumbers = function (l1, l2) {
     // 返回值
     let res = new ListNode(null);
     let temp = res;
+    
     // 判断是否还有值进行相加
     while (l1 != null || l2 != null) {
         // 有值就赋值val
