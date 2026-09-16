@@ -1,6 +1,6 @@
 ---
 description: 资深游戏开发（TypeScript / Node.js / HTML5）全局编码规范
-alwaysApply: true
+alwaysApply: false
 ---
 
 # 游戏开发通用规范（TypeScript / Node.js / HTML5）

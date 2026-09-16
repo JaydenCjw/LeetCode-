@@ -1,12 +1,9 @@
-# Skills 中文导读
+# Skills 导读
 
-为方便中文阅读，以下目录补充了中文说明文件 `SKILL.zh-CN.md`：
+本仓库保留 1 个主力 Skill：
 
-- `create-rule/SKILL.zh-CN.md`
-- `automate/SKILL.zh-CN.md`
-- `review-bugbot/SKILL.zh-CN.md`
+| Skill | 用途 |
+|-------|------|
+| `leetcode-solution` | 按 `solutions/` 分类新增/改写 TypeScript 题解 |
 
-说明：
-
-- 原始 `SKILL.md` 保留不动，便于和官方版本对照与同步更新。
-- 日常阅读建议优先看 `SKILL.zh-CN.md`。
+通用能力（create-rule / review-bugbot / automate）使用 Cursor 内置版本即可，不再在本仓库重复存放。

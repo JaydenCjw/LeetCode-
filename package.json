@@ -1,0 +1,16 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "private": true,
+  "description": "LeetCode 算法刷题（TypeScript）",
+  "scripts": {
+    "start": "tsx scripts/run.ts",
+    "typecheck": "tsc --noEmit",
+    "run": "tsx"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.3",
+    "tsx": "^4.20.5",
+    "typescript": "^5.8.2"
+  }
+}
