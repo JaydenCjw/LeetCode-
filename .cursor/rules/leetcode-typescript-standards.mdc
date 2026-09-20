@@ -7,7 +7,9 @@ alwaysApply: true
 
 ## 语言与表达
 
-- 说明、注释、README、提交说明默认中文。
+- 说明、注释、README **必须中文**。
+- **Git 提交说明（commit message）必须中文**，禁止纯英文或无意义短词（如 `update`、`fix`、`add`）。
+- 提交说明写清「为什么 / 做了什么」，1～2 句即可，例如：`优化 tsconfig，改用 bundler 解析并固定工作区 TypeScript 版本`。
 - 代码标识符保持英文，不使用拼音命名。
 
 ## 目录与命名
