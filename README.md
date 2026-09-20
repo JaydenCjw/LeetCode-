@@ -18,6 +18,7 @@ solutions/           题解（按算法分类）
   binary-search/     二分查找
   heap/              堆 / TopK
   string/            字符串
+  greedy/            贪心
 src/                 公共工具
   types.ts           ListNode / TreeNode
   heap.ts            通用堆

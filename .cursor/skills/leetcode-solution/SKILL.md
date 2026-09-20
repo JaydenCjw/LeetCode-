@@ -13,7 +13,7 @@ description: >-
 - 题解统一放在 `solutions/` 下，按算法分类：
   `array/`、`two-pointers/`、`sliding-window/`、`linked-list/`、
   `binary-tree/`、`dp/`、`stack/`、`backtracking/`、`graph/`、
-  `binary-search/`、`heap/`、`string/` 等
+  `binary-search/`、`heap/`、`string/`、`greedy/` 等
 - 文件名：`{英文短横线题名}.ts`（不含题号），例如 `solutions/array/two-sum.ts`
 - 公共模块：`@/types`、`@/heap`（对应 `src/`）
 - 说明默认中文；标识符保持英文
