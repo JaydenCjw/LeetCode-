@@ -1,29 +1,25 @@
 ---
 name: leetcode-solution
 description: >-
-  为本仓库新增或改写 LeetCode 题解（TypeScript）。在用户要求出题、补题、
+  为本仓库新增或改写 LeetCode 题解（TypeScript）。用户要求出题、补题、
   改写旧题、按分类生成算法题时使用。
 ---
 
 # LeetCode 题解生成
 
-## 仓库约定
+## 约定
 
-- 语言：**TypeScript**
-- 题解统一放在 `solutions/` 下，按算法分类：
-  `array/`、`two-pointers/`、`sliding-window/`、`linked-list/`、
-  `binary-tree/`、`dp/`、`stack/`、`backtracking/`、`graph/`、
-  `binary-search/`、`heap/`、`string/`、`greedy/`、`union-find/`、
-  `trie/`、`bit-manipulation/`、`design/`、`math/` 等
-- 文件名：`{英文短横线题名}.ts`（不含题号），例如 `solutions/array/two-sum.ts`
-- 公共模块：`@/types`、`@/heap`、`@/union-find`（对应 `src/`）
-- 说明默认中文；标识符保持英文
+- TypeScript；说明中文；标识符英文。
+- 路径：`solutions/<分类>/<英文短横线题名>.ts`（文件名与注释标题均不含题号）。
+- 分类：先看已有 `solutions/*`；没有就新建。
+- 公共代码优先复用 `src/`（`@/`）。
+- 不要为加题去改规则文件；README 分类说明仅在有新目录时手工补一行。
 
-## 单题文件模板
+## 模板
 
 ```typescript
 /**
- * {中文题名}（不含题号）
+ * {中文题名}
  * {题意摘要}
  *
  * 示例：...
@@ -32,27 +28,16 @@ description: >-
  * 时间 O(...), 空间 O(...)
  */
 
-import { ListNode } from "@/types"; // 按需引入
-
 export function solutionName(...): ReturnType {
   // 实现
 }
 
-console.log(/* 本地可验证示例 */);
+console.log(/* 示例 */);
 ```
 
-## 生成要求
+## 步骤
 
-1. 先判断 `solutions/<分类>/`；没有对应目录则新建。
-2. 优先正确与可读；复杂度写清楚。
-3. 链表/树复用 `@/types`，堆相关优先复用 `@/heap`。
-4. 文件底部保留 `console.log`，可用 `npm run start -- <关键字>` 验证。
-5. 不要生成与现有题名重复的文件；已有则升级实现。
-6. 文件注释标题与文件名都不加题号。
-7. README 只维护目录结构说明，不维护题号/难度大表。
-
-## 批量生成
-
-- 按用户指定分类与数量生成
-- 结束后汇总新增路径列表
-- 不要顺带改无关文件
+1. 选定或新建分类目录。
+2. 查重；同名则升级。
+3. 写解法 + `console.log`。
+4. 需要时 `npm run start -- <关键字>` 验证。

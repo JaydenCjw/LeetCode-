@@ -3,5 +3,6 @@ dist/
 *.js
 *.js.map
 .DS_Store
+**/.DS_Store
 *.log
 .npm-cache/
