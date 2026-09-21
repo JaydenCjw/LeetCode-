@@ -19,16 +19,22 @@ solutions/           题解（按算法分类）
   heap/              堆 / TopK
   string/            字符串
   greedy/            贪心
+  union-find/        并查集
+  trie/              字典树
+  bit-manipulation/  位运算
+  design/            设计题
+  math/              数学
 src/                 公共工具
   types.ts           ListNode / TreeNode
   heap.ts            通用堆
+  union-find.ts      并查集
 scripts/run.ts       按关键字运行题解
 ```
 
 ## 约定
 
 - 题解统一 TypeScript，文件名用英文短横线，不含题号（如 `two-sum.ts`）
-- 公共类型/工具从 `@/types`、`@/heap` 引入
+- 公共类型/工具从 `@/types`、`@/heap`、`@/union-find` 引入
 - 说明与注释默认中文，代码标识符保持英文
 
 ## 本地运行

@@ -13,16 +13,17 @@ description: >-
 - 题解统一放在 `solutions/` 下，按算法分类：
   `array/`、`two-pointers/`、`sliding-window/`、`linked-list/`、
   `binary-tree/`、`dp/`、`stack/`、`backtracking/`、`graph/`、
-  `binary-search/`、`heap/`、`string/`、`greedy/` 等
+  `binary-search/`、`heap/`、`string/`、`greedy/`、`union-find/`、
+  `trie/`、`bit-manipulation/`、`design/`、`math/` 等
 - 文件名：`{英文短横线题名}.ts`（不含题号），例如 `solutions/array/two-sum.ts`
-- 公共模块：`@/types`、`@/heap`（对应 `src/`）
+- 公共模块：`@/types`、`@/heap`、`@/union-find`（对应 `src/`）
 - 说明默认中文；标识符保持英文
 
 ## 单题文件模板
 
 ```typescript
 /**
- * {中文题名}
+ * {中文题名}（不含题号）
  * {题意摘要}
  *
  * 示例：...
@@ -47,7 +48,7 @@ console.log(/* 本地可验证示例 */);
 3. 链表/树复用 `@/types`，堆相关优先复用 `@/heap`。
 4. 文件底部保留 `console.log`，可用 `npm run start -- <关键字>` 验证。
 5. 不要生成与现有题名重复的文件；已有则升级实现。
-6. 文件注释可写题号，文件名本身不加序号。
+6. 文件注释标题与文件名都不加题号。
 7. README 只维护目录结构说明，不维护题号/难度大表。
 
 ## 批量生成
