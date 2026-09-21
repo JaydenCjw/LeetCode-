@@ -1,5 +1,6 @@
 /**
  * 单词接龙
+ * 难度：★★★★☆
  * 每次改一个字母，从 beginWord 变到 endWord，返回最短转换序列长度；无法转换返回 0。
  *
  * 示例：beginWord = "hit", endWord = "cog",

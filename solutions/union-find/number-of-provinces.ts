@@ -1,5 +1,6 @@
 /**
  * 省份数量
+ * 难度：★★★☆☆
  * n x n 矩阵 isConnected，isConnected[i][j] = 1 表示城市 i、j 直接相连。
  * 返回省份数量（连通分量数）。
  *

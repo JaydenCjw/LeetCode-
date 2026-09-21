@@ -20,6 +20,7 @@ description: >-
 ```typescript
 /**
  * {中文题名}
+ * 难度：{★★★☆☆}
  * {题意摘要}
  *
  * 示例：...
@@ -34,6 +35,8 @@ export function solutionName(...): ReturnType {
 
 console.log(/* 示例 */);
 ```
+
+难度星级（1～5）：综合官方难度与实现复杂度，`★☆☆☆☆` 入门，`★★★★★` 困难。
 
 ## 步骤
 

@@ -1,5 +1,6 @@
 /**
  * 单词拆分
+ * 难度：★★★☆☆
  * 判断 s 能否被拆成字典 wordDict 中单词的空格分隔序列。
  *
  * 示例：s = "leetcode", wordDict = ["leet","code"] => true

@@ -1,5 +1,6 @@
 /**
  * 实现 Trie（前缀树）
+ * 难度：★★★☆☆
  * 实现 insert / search / startsWith。
  *
  * 思路：26 叉树，逐字符建节点。

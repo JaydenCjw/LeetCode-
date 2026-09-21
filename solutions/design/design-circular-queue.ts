@@ -1,5 +1,6 @@
 /**
  * 设计循环队列
+ * 难度：★★★☆☆
  * 实现 MyCircularQueue：enQueue / deQueue / Front / Rear / isEmpty / isFull。
  *
  * 思路：数组 + head/tail/size。

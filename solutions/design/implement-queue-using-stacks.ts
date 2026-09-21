@@ -1,5 +1,6 @@
 /**
  * 用栈实现队列
+ * 难度：★★☆☆☆
  * 仅用两个栈实现队列的 push / pop / peek / empty。
  *
  * 思路：入队进 inStack，出队时若 outStack 空则把 inStack 倒入。

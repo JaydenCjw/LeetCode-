@@ -1,5 +1,6 @@
 /**
  * 添加与搜索单词 - 数据结构设计
+ * 难度：★★★★☆
  * WordDictionary：addWord / search。search 中 '.' 可匹配任意字母。
  *
  * 思路：Trie + DFS 处理通配符。
