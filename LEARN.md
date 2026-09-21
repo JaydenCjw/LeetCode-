@@ -6,136 +6,264 @@
 
 | 星级 | 含义 | 题数 |
 |------|------|------|
-| ★☆☆☆☆ | 入门 | 19 |
-| ★★☆☆☆ | 简单 | 21 |
-| ★★★☆☆ | 中等 | 98 |
-| ★★★★☆ | 较难 | 13 |
-| ★★★★★ | 困难 | 5 |
+| ★☆☆☆☆ | 入门 | 57 |
+| ★★☆☆☆ | 简单 | 66 |
+| ★★★☆☆ | 中等 | 152 |
+| ★★★★☆ | 较难 | 20 |
+| ★★★★★ | 困难 | 7 |
 
-合计 **156** 题。
+合计 **302** 题。
 
 ## ★☆☆☆☆ 入门
 
 - 存在重复元素 — `solutions/array/contains-duplicate.ts`
 - 合并两个有序数组 — `solutions/array/merge-sorted-array.ts`
+- 加一 — `solutions/array/plus-one.ts`
 - 两数之和 — `solutions/array/two-sum.ts`
+- 缺失数字 — `solutions/array/missing-number.ts`
+- 寻找数组的中心下标 — `solutions/array/find-pivot-index.ts`
 - 二分查找 — `solutions/binary-search/binary-search.ts`
 - 搜索插入位置 — `solutions/binary-search/search-insert-position.ts`
+- 二叉树的前序遍历 — `solutions/binary-tree/binary-tree-preorder-traversal.ts`
 - 二叉树的最大深度 — `solutions/binary-tree/maximum-depth-of-binary-tree.ts`
 - 翻转二叉树 — `solutions/binary-tree/invert-binary-tree.ts`
+- 合并二叉树 — `solutions/binary-tree/merge-two-binary-trees.ts`
+- 将有序数组转换为二叉搜索树 — `solutions/binary-tree/convert-sorted-array-to-binary-search-tree.ts`
+- 平衡二叉树 — `solutions/binary-tree/balanced-binary-tree.ts`
+- 相同的树 — `solutions/binary-tree/same-tree.ts`
+- 2 的幂 — `solutions/bit-manipulation/power-of-two.ts`
+- 颠倒二进制位 — `solutions/bit-manipulation/reverse-bits.ts`
+- 汉明距离 — `solutions/bit-manipulation/hamming-distance.ts`
 - 数字的补数 — `solutions/bit-manipulation/number-complement.ts`
+- 位 1 的个数 — `solutions/bit-manipulation/number-of-1-bits.ts`
 - 只出现一次的数字 — `solutions/bit-manipulation/single-number.ts`
+- 设计哈希映射 — `solutions/design/design-hashmap.ts`
+- 最近的请求次数 — `solutions/design/recent-counter.ts`
+- 斐波那契数 — `solutions/dp/fibonacci-number.ts`
 - 爬楼梯 — `solutions/dp/climbing-stairs.ts`
+- 使用最小花费爬楼梯 — `solutions/dp/min-cost-climbing-stairs.ts`
+- 图像渲染 — `solutions/graph/flood-fill.ts`
+- 分发饼干 — `solutions/greedy/assign-cookies.ts`
+- 柠檬水找零 — `solutions/greedy/lemonade-change.ts`
+- 种花问题 — `solutions/greedy/can-place-flowers.ts`
+- 最后一块石头的重量 — `solutions/heap/last-stone-weight.ts`
 - 反转链表 — `solutions/linked-list/reverse-linked-list.ts`
 - 合并两个有序链表 — `solutions/linked-list/merge-two-sorted-lists.ts`
 - 链表的中间结点 — `solutions/linked-list/middle-of-the-linked-list.ts`
+- 删除排序链表中的重复元素 — `solutions/linked-list/remove-duplicates-from-sorted-list.ts`
+- 移除链表元素 — `solutions/linked-list/remove-linked-list-elements.ts`
+- 回文数 — `solutions/math/palindrome-number.ts`
+- Excel 表列序号 — `solutions/math/excel-sheet-column-number.ts`
 - x 的平方根 — `solutions/math/sqrtx.ts`
+- 子数组最大平均数 I — `solutions/sliding-window/maximum-average-subarray.ts`
+- 最大连续 1 的个数 — `solutions/sliding-window/max-consecutive-ones.ts`
 - 有效的括号 — `solutions/stack/valid-parentheses.ts`
+- 单词规律 — `solutions/string/word-pattern.ts`
+- 二进制求和 — `solutions/string/add-binary.ts`
+- 罗马数字转整数 — `solutions/string/roman-to-integer.ts`
+- 赎金信 — `solutions/string/ransom-note.ts`
+- 同构字符串 — `solutions/string/isomorphic-strings.ts`
 - 有效的字母异位词 — `solutions/string/valid-anagram.ts`
+- 找出字符串中第一个匹配项的下标 — `solutions/string/find-the-index-of-the-first-occurrence-in-a-string.ts`
+- 字符串中的第一个唯一字符 — `solutions/string/first-unique-character-in-a-string.ts`
+- 最后一个单词的长度 — `solutions/string/length-of-last-word.ts`
+- 判断子序列 — `solutions/two-pointers/is-subsequence.ts`
 - 删除有序数组中的重复项 — `solutions/two-pointers/remove-duplicates-from-sorted-array.ts`
 - 验证回文串 — `solutions/two-pointers/valid-palindrome.ts`
+- 移除元素 — `solutions/two-pointers/remove-element.ts`
 - 移动零 — `solutions/two-pointers/move-zeroes.ts`
+- 有序数组的平方 — `solutions/two-pointers/squares-of-a-sorted-array.ts`
 
 ## ★★☆☆☆ 简单
 
+- 存在重复元素 II — `solutions/array/contains-duplicate-ii.ts`
+- 错误的集合 — `solutions/array/set-mismatch.ts`
 - 多数元素 — `solutions/array/majority-element.ts`
+- 汇总区间 — `solutions/array/summary-ranges.ts`
 - 轮转数组 — `solutions/array/rotate-array.ts`
 - 买卖股票的最佳时机 — `solutions/array/best-time-to-buy-and-sell-stock.ts`
+- 买卖股票的最佳时机 II — `solutions/array/best-time-to-buy-and-sell-stock-ii.ts`
+- 三个数的最大乘积 — `solutions/array/maximum-product-of-three-numbers.ts`
+- 杨辉三角 — `solutions/array/pascals-triangle.ts`
 - 最大子数组和 — `solutions/array/maximum-subarray.ts`
+- 全排列 II — `solutions/backtracking/permutations-ii.ts`
+- 子集 II — `solutions/backtracking/subsets-ii.ts`
+- 字母大小写全排列 — `solutions/backtracking/letter-case-permutation.ts`
+- 组合 — `solutions/backtracking/combinations.ts`
+- 组合总和 III — `solutions/backtracking/combination-sum-iii.ts`
+- 搜索旋转排序数组 II — `solutions/binary-search/search-in-rotated-sorted-array-ii.ts`
+- 有序数组中的单一元素 — `solutions/binary-search/single-element-in-a-sorted-array.ts`
 - 对称二叉树 — `solutions/binary-tree/symmetric-tree.ts`
 - 二叉树的直径 — `solutions/binary-tree/diameter-of-binary-tree.ts`
 - 二叉树的中序遍历 — `solutions/binary-tree/binary-tree-inorder-traversal.ts`
+- 二叉树的最小深度 — `solutions/binary-tree/minimum-depth-of-binary-tree.ts`
+- 二叉搜索树的最近公共祖先 — `solutions/binary-tree/lowest-common-ancestor-of-a-binary-search-tree.ts`
+- 另一棵树的子树 — `solutions/binary-tree/subtree-of-another-tree.ts`
 - 路径总和 — `solutions/binary-tree/path-sum.ts`
+- 求根节点到叶节点数字之和 — `solutions/binary-tree/sum-root-to-leaf-numbers.ts`
 - 比特位计数 — `solutions/bit-manipulation/counting-bits.ts`
+- 两整数之和 — `solutions/bit-manipulation/sum-of-two-integers.ts`
 - 用队列实现栈 — `solutions/design/implement-stack-using-queues.ts`
 - 用栈实现队列 — `solutions/design/implement-queue-using-stacks.ts`
+- 摆动序列 — `solutions/dp/wiggle-subsequence.ts`
+- 不同路径 II — `solutions/dp/unique-paths-ii.ts`
+- 等差数列划分 — `solutions/dp/arithmetic-slices.ts`
+- 最小路径和 — `solutions/dp/minimum-path-sum.ts`
+- 岛屿的最大面积 — `solutions/graph/max-area-of-island.ts`
+- 所有可能的路径 — `solutions/graph/all-paths-from-source-to-target.ts`
+- 钥匙和房间 — `solutions/graph/keys-and-rooms.ts`
+- 两地调度 — `solutions/greedy/two-city-scheduling.ts`
+- 最接近原点的 K 个点 — `solutions/heap/k-closest-points-to-origin.ts`
+- 分隔链表 — `solutions/linked-list/partition-list.ts`
 - 环形链表 — `solutions/linked-list/linked-list-cycle.ts`
 - 回文链表 — `solutions/linked-list/palindrome-linked-list.ts`
+- 奇偶链表 — `solutions/linked-list/odd-even-linked-list.ts`
 - 删除链表的倒数第 N 个结点 — `solutions/linked-list/remove-nth-node-from-end.ts`
 - 相交链表 — `solutions/linked-list/intersection-of-two-linked-lists.ts`
+- 旋转链表 — `solutions/linked-list/rotate-list.ts`
+- 灯泡开关 — `solutions/math/bulb-switcher.ts`
+- 阶乘后的零 — `solutions/math/factorial-trailing-zeroes.ts`
 - 快乐数 — `solutions/math/happy-number.ts`
+- 整数反转 — `solutions/math/reverse-integer.ts`
 - Pow(x, n) — `solutions/math/powx-n.ts`
+- 螺旋矩阵 II — `solutions/matrix/spiral-matrix-ii.ts`
+- 有效的数独 — `solutions/matrix/valid-sudoku.ts`
+- 股票价格跨度 — `solutions/stack/online-stock-span.ts`
+- 简化路径 — `solutions/stack/simplify-path.ts`
+- 括号的分数 — `solutions/stack/score-of-parentheses.ts`
+- 逆波兰表达式求值 — `solutions/stack/evaluate-reverse-polish-notation.ts`
+- 移除无效的括号 — `solutions/stack/minimum-remove-to-make-valid-parentheses.ts`
 - 最小栈 — `solutions/stack/min-stack.ts`
 - 反转字符串中的单词 — `solutions/string/reverse-words-in-a-string.ts`
+- 整数转罗马数字 — `solutions/string/integer-to-roman.ts`
 - 最长公共前缀 — `solutions/string/longest-common-prefix.ts`
+- 最长回文串 — `solutions/string/longest-palindrome.ts`
+- 救生艇 — `solutions/two-pointers/boats-to-save-people.ts`
 - 两数之和 II - 输入有序数组 — `solutions/two-pointers/two-sum-ii-input-array-is-sorted.ts`
+- 删除有序数组中的重复项 II — `solutions/two-pointers/remove-duplicates-from-sorted-array-ii.ts`
+- 验证回文串 II — `solutions/two-pointers/valid-palindrome-ii.ts`
 
 ## ★★★☆☆ 中等
 
+- 插入区间 — `solutions/array/insert-interval.ts`
+- 乘积最大子数组 — `solutions/array/maximum-product-subarray.ts`
 - 除自身以外数组的乘积 — `solutions/array/product-of-array-except-self.ts`
+- 递增的三元子序列 — `solutions/array/increasing-triplet-subsequence.ts`
 - 合并区间 — `solutions/array/merge-intervals.ts`
+- 和可被 K 整除的子数组 — `solutions/array/subarray-sums-divisible-by-k.ts`
 - 和为 K 的子数组 — `solutions/array/subarray-sum-equals-k.ts`
 - 和下一个排列 — `solutions/array/next-permutation.ts`
 - 矩阵置零 — `solutions/array/set-matrix-zeroes.ts`
+- 求众数 II — `solutions/array/majority-element-ii.ts`
+- 数组中重复的数据 — `solutions/array/find-all-duplicates-in-an-array.ts`
 - 寻找重复数 — `solutions/array/find-the-duplicate-number.ts`
 - 颜色分类 — `solutions/array/sort-colors.ts`
+- 最长连续序列 — `solutions/array/longest-consecutive-sequence.ts`
+- H 指数 — `solutions/array/h-index.ts`
 - 单词搜索 — `solutions/backtracking/word-search.ts`
 - 电话号码的字母组合 — `solutions/backtracking/letter-combinations-of-a-phone-number.ts`
 - 分割回文串 — `solutions/backtracking/palindrome-partitioning.ts`
+- 复原 IP 地址 — `solutions/backtracking/restore-ip-addresses.ts`
 - 括号生成 — `solutions/backtracking/generate-parentheses.ts`
 - 全排列 — `solutions/backtracking/permutations.ts`
 - 子集 — `solutions/backtracking/subsets.ts`
 - 组合总和 — `solutions/backtracking/combination-sum.ts`
 - 组合总和 II — `solutions/backtracking/combination-sum-ii.ts`
+- N 皇后 II — `solutions/backtracking/n-queens-ii.ts`
 - 爱吃香蕉的珂珂 — `solutions/binary-search/koko-eating-bananas.ts`
 - 搜索二维矩阵 — `solutions/binary-search/search-a-2d-matrix.ts`
 - 搜索旋转排序数组 — `solutions/binary-search/search-in-rotated-sorted-array.ts`
 - 寻找峰值 — `solutions/binary-search/find-peak-element.ts`
 - 寻找旋转排序数组中的最小值 — `solutions/binary-search/find-minimum-in-rotated-sorted-array.ts`
+- 有序矩阵中第 K 小的元素 — `solutions/binary-search/kth-smallest-element-in-a-sorted-matrix.ts`
+- 在 D 天内送达包裹的能力 — `solutions/binary-search/capacity-to-ship-packages-within-d-days.ts`
 - 在排序数组中查找元素的第一个和最后一个位置 — `solutions/binary-search/find-first-and-last-position-of-element-in-sorted-array.ts`
+- 找到 K 个最接近的元素 — `solutions/binary-search/find-k-closest-elements.ts`
 - 从前序与中序遍历序列构造二叉树 — `solutions/binary-tree/construct-binary-tree-from-preorder-and-inorder-traversal.ts`
+- 从中序与后序遍历序列构造二叉树 — `solutions/binary-tree/construct-binary-tree-from-inorder-and-postorder-traversal.ts`
 - 二叉树的层序遍历 — `solutions/binary-tree/binary-tree-level-order-traversal.ts`
+- 二叉树的锯齿形层序遍历 — `solutions/binary-tree/binary-tree-zigzag-level-order-traversal.ts`
 - 二叉树的右视图 — `solutions/binary-tree/binary-tree-right-side-view.ts`
 - 二叉树的最近公共祖先 — `solutions/binary-tree/lowest-common-ancestor-of-a-binary-tree.ts`
 - 二叉树展开为链表 — `solutions/binary-tree/flatten-binary-tree-to-linked-list.ts`
 - 二叉搜索树中第 K 小的元素 — `solutions/binary-tree/kth-smallest-element-in-a-bst.ts`
 - 路径总和 II — `solutions/binary-tree/path-sum-ii.ts`
+- 路径总和 III — `solutions/binary-tree/path-sum-iii.ts`
+- 删除二叉搜索树中的节点 — `solutions/binary-tree/delete-node-in-a-bst.ts`
+- 完全二叉树的节点个数 — `solutions/binary-tree/count-complete-tree-nodes.ts`
 - 验证二叉搜索树 — `solutions/binary-tree/validate-binary-search-tree.ts`
 - 两数相除 — `solutions/bit-manipulation/divide-two-integers.ts`
 - 数字范围按位与 — `solutions/bit-manipulation/bitwise-and-of-numbers-range.ts`
+- 只出现一次的数字 II — `solutions/bit-manipulation/single-number-ii.ts`
+- 只出现一次的数字 III — `solutions/bit-manipulation/single-number-iii.ts`
 - 设计循环队列 — `solutions/design/design-circular-queue.ts`
+- O(1) 时间插入、删除和获取随机元素 — `solutions/design/insert-delete-getrandom.ts`
+- 不同的二叉搜索树 — `solutions/dp/unique-binary-search-trees.ts`
 - 不同路径 — `solutions/dp/unique-paths.ts`
+- 丑数 II — `solutions/dp/ugly-number-ii.ts`
 - 打家劫舍 — `solutions/dp/house-robber.ts`
 - 打家劫舍 II — `solutions/dp/house-robber-ii.ts`
+- 打家劫舍 III — `solutions/dp/house-robber-iii.ts`
 - 单词拆分 — `solutions/dp/word-break.ts`
 - 分割等和子集 — `solutions/dp/partition-equal-subset-sum.ts`
+- 交错字符串 — `solutions/dp/interleaving-string.ts`
 - 解码方法 — `solutions/dp/decode-ways.ts`
 - 零钱兑换 — `solutions/dp/coin-change.ts`
+- 零钱兑换 II — `solutions/dp/coin-change-ii.ts`
 - 目标和 — `solutions/dp/target-sum.ts`
+- 三角形最小路径和 — `solutions/dp/triangle.ts`
+- 删除并获得点数 — `solutions/dp/delete-and-earn.ts`
 - 完全平方数 — `solutions/dp/perfect-squares.ts`
 - 整数拆分 — `solutions/dp/integer-break.ts`
+- 组合总和 Ⅳ — `solutions/dp/combination-sum-iv.ts`
 - 最大正方形 — `solutions/dp/maximal-square.ts`
+- 最佳买卖股票时机含冷冻期 — `solutions/dp/best-time-to-buy-and-sell-stock-with-cooldown.ts`
 - 最长递增子序列 — `solutions/dp/longest-increasing-subsequence.ts`
 - 最长公共子序列 — `solutions/dp/longest-common-subsequence.ts`
 - 最长回文子串 — `solutions/dp/longest-palindromic-substring.ts`
 - 最长回文子序列 — `solutions/dp/longest-palindromic-subsequence.ts`
+- 01 矩阵 — `solutions/graph/zero-one-matrix.ts`
 - 被围绕的区域 — `solutions/graph/surrounded-regions.ts`
+- 除法求值 — `solutions/graph/evaluate-division.ts`
+- 打开转盘锁 — `solutions/graph/open-the-lock.ts`
 - 岛屿数量 — `solutions/graph/number-of-islands.ts`
+- 二进制矩阵中的最短路径 — `solutions/graph/shortest-path-in-binary-matrix.ts`
 - 腐烂的橘子 — `solutions/graph/rotting-oranges.ts`
 - 克隆图 — `solutions/graph/clone-graph.ts`
 - 课程表 — `solutions/graph/course-schedule.ts`
 - 课程表 II — `solutions/graph/course-schedule-ii.ts`
+- 判断二分图 — `solutions/graph/is-graph-bipartite.ts`
 - 太平洋大西洋水流问题 — `solutions/graph/pacific-atlantic-water-flow.ts`
+- 网络延迟时间 — `solutions/graph/network-delay-time.ts`
 - 根据身高重建队列 — `solutions/greedy/queue-reconstruction-by-height.ts`
+- 划分字母区间 — `solutions/greedy/partition-labels.ts`
 - 加油站 — `solutions/greedy/gas-station.ts`
 - 跳跃游戏 — `solutions/greedy/jump-game.ts`
 - 跳跃游戏 II — `solutions/greedy/jump-game-ii.ts`
 - 无重叠区间 — `solutions/greedy/non-overlapping-intervals.ts`
+- 一手顺子 — `solutions/greedy/hand-of-straights.ts`
 - 用最少数量的箭引爆气球 — `solutions/greedy/minimum-number-of-arrows-to-burst-balloons.ts`
 - 前 K 个高频单词 — `solutions/heap/top-k-frequent-words.ts`
 - 前 K 个高频元素 — `solutions/heap/top-k-frequent-elements.ts`
+- 任务调度器 — `solutions/heap/task-scheduler.ts`
 - 数据流中的第 K 大元素 — `solutions/heap/kth-largest-element-in-a-stream.ts`
 - 数组中的第 K 个最大元素 — `solutions/heap/kth-largest-element-in-an-array.ts`
+- 重构字符串 — `solutions/heap/reorganize-string.ts`
+- 反转链表 II — `solutions/linked-list/reverse-linked-list-ii.ts`
 - 复制带随机指针的链表 — `solutions/linked-list/copy-list-with-random-pointer.ts`
+- 环形链表 II — `solutions/linked-list/linked-list-cycle-ii.ts`
 - 两两交换链表中的节点 — `solutions/linked-list/swap-nodes-in-pairs.ts`
 - 两数相加 — `solutions/linked-list/add-two-numbers.ts`
 - 排序链表 — `solutions/linked-list/sort-list.ts`
 - 重排链表 — `solutions/linked-list/reorder-list.ts`
 - 计算质数 — `solutions/math/count-primes.ts`
+- 水和罐问题 — `solutions/math/water-and-jug-problem.ts`
 - 螺旋矩阵 — `solutions/matrix/spiral-matrix.ts`
+- 生命游戏 — `solutions/matrix/game-of-life.ts`
 - 搜索二维矩阵 II — `solutions/matrix/search-a-2d-matrix-ii.ts`
 - 旋转图像 — `solutions/matrix/rotate-image.ts`
 - 乘积小于 K 的子数组 — `solutions/sliding-window/subarray-product-less-than-k.ts`
+- 尽可能使字符串相等 — `solutions/sliding-window/get-equal-substrings-within-budget.ts`
 - 水果成篮 — `solutions/sliding-window/fruit-into-baskets.ts`
 - 替换后的最长重复字符 — `solutions/sliding-window/longest-repeating-character-replacement.ts`
 - 无重复字符的最长子串 — `solutions/sliding-window/longest-substring-without-repeating.ts`
@@ -145,34 +273,50 @@
 - 最大连续 1 的个数 III — `solutions/sliding-window/max-consecutive-ones-iii.ts`
 - 排序数组 — `solutions/sorting/sort-an-array.ts`
 - 数组中的第 K 个最大元素（排序视角） — `solutions/sorting/kth-largest-element-quickselect.ts`
+- 最大数 — `solutions/sorting/largest-number.ts`
+- 车队 — `solutions/stack/car-fleet.ts`
 - 每日温度 — `solutions/stack/daily-temperatures.ts`
 - 下一个更大元素 I — `solutions/stack/next-greater-element-i.ts`
+- 下一个更大元素 II — `solutions/stack/next-greater-element-ii.ts`
+- 行星碰撞 — `solutions/stack/asteroid-collision.ts`
+- 移掉 K 位数字 — `solutions/stack/remove-k-digits.ts`
 - 字符串解码 — `solutions/stack/decode-string.ts`
 - 模式匹配 — `solutions/string/pattern-matching.ts`
 - 字符串相乘 — `solutions/string/multiply-strings.ts`
 - 字符串转换整数 (atoi) — `solutions/string/string-to-integer-atoi.ts`
 - 字母异位词分组 — `solutions/string/group-anagrams.ts`
+- Z 字形变换 — `solutions/string/zigzag-conversion.ts`
+- 前缀替换 — `solutions/trie/replace-words.ts`
 - 实现 Trie（前缀树） — `solutions/trie/implement-trie-prefix-tree.ts`
 - 三数之和 — `solutions/two-pointers/three-sum.ts`
 - 盛最多水的容器 — `solutions/two-pointers/container-with-most-water.ts`
 - 四数之和 — `solutions/two-pointers/four-sum.ts`
 - 最接近的三数之和 — `solutions/two-pointers/three-sum-closest.ts`
 - 等式方程的可满足性 — `solutions/union-find/satisfiability-of-equality-equations.ts`
+- 连通网络的操作次数 — `solutions/union-find/number-of-operations-to-make-network-connected.ts`
 - 冗余连接 — `solutions/union-find/redundant-connection.ts`
 - 省份数量 — `solutions/union-find/number-of-provinces.ts`
+- 移除最多的同行或同列石头 — `solutions/union-find/most-stones-removed-with-same-row-or-column.ts`
 
 ## ★★★★☆ 较难
 
 - 缺失的第一个正数 — `solutions/array/first-missing-positive.ts`
+- 解数独 — `solutions/backtracking/sudoku-solver.ts`
 - N 皇后 — `solutions/backtracking/n-queens.ts`
+- 分割数组的最大值 — `solutions/binary-search/split-array-largest-sum.ts`
+- 二叉树的序列化与反序列化 — `solutions/binary-tree/serialize-and-deserialize-binary-tree.ts`
 - LRU 缓存 — `solutions/design/lru-cache.ts`
 - 编辑距离 — `solutions/dp/edit-distance.ts`
+- 分割回文串 II — `solutions/dp/palindrome-partitioning-ii.ts`
+- 买卖股票的最佳时机 III — `solutions/dp/best-time-to-buy-and-sell-stock-iii.ts`
+- 最长有效括号 — `solutions/dp/longest-valid-parentheses.ts`
 - 单词接龙 — `solutions/graph/word-ladder.ts`
 - 分发糖果 — `solutions/greedy/candy.ts`
 - 数据流的中位数 — `solutions/heap/find-median-from-data-stream.ts`
 - K 个一组翻转链表 — `solutions/linked-list/reverse-nodes-in-k-group.ts`
 - 滑动窗口最大值 — `solutions/sliding-window/sliding-window-maximum.ts`
 - 基本计算器 II — `solutions/stack/basic-calculator-ii.ts`
+- 去除重复字母 — `solutions/stack/remove-duplicate-letters.ts`
 - 添加与搜索单词 - 数据结构设计 — `solutions/trie/design-add-and-search-words-data-structure.ts`
 - 接雨水 — `solutions/two-pointers/trapping-rain-water.ts`
 - 账户合并 — `solutions/union-find/accounts-merge.ts`
@@ -181,6 +325,8 @@
 
 - 寻找两个正序数组的中位数 — `solutions/binary-search/median-of-two-sorted-arrays.ts`
 - 二叉树的最大路径和 — `solutions/binary-tree/binary-tree-maximum-path-sum.ts`
+- 戳气球 — `solutions/dp/burst-balloons.ts`
+- 正则表达式匹配 — `solutions/dp/regular-expression-matching.ts`
 - 合并 K 个升序链表 — `solutions/heap/merge-k-sorted-lists.ts`
 - 最小覆盖子串 — `solutions/sliding-window/minimum-window-substring.ts`
 - 柱状图中最大的矩形 — `solutions/stack/largest-rectangle-in-histogram.ts`
