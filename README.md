@@ -24,6 +24,8 @@ solutions/                 题解根目录
   bit-manipulation/        位运算
   design/                  设计题
   math/                    数学
+  matrix/                  矩阵
+  sorting/                 排序 / 选择
 src/                       可复用工具（通过 @/ 引入）
 scripts/run.ts             按关键字运行题解
 ```
